@@ -12,13 +12,7 @@
     margin-bottom: 40px;
   }
 
-/*   .feature-content  {
-    max-width: 55%;
-    font-size: larger;
-
-  } */
-
- .feature-content  {
+  .feature-content  {
     max-width: 70%;
     font-size: larger;
     color: #e10f0f;
@@ -26,20 +20,14 @@
     margin-left: 0px;
   }
 
-/*   .feature img {
-    max-width: 60%;
-    border-radius:300px;
-    margin-right: 20px;
-  } */
-
-.feature img {
+  .feature img {
     max-width: 60%;
     border-radius:100px;
     margin-right: 0;
     padding-right: 0px;
   }
 
- .about-us{
+  .about-us{
     color:rgb(0, 0, 0);
     font-size: larger;
     margin-left: 30px;
@@ -292,7 +280,8 @@ header {
   }
 
   .button:hover {
-    background-color: white;
+    color:white;
+    background-color: #4b0dc0;
   }
 
   .footer {
@@ -317,7 +306,7 @@ header {
     padding: 10px;
   }
 
-.image-container {
+  .image-container {
     display: flex;
   }
   
@@ -326,3 +315,4 @@ header {
     height: 200px; /* Set the desired height */
     object-fit: cover; /* Adjust how the image fits into the container */
   }
+  
