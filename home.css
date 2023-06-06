@@ -17,25 +17,32 @@
     margin-right: 20px;
   }
 
-  .feature-content  {
+/*   .feature-content  {
     max-width: 55%;
     font-size: larger;
 
+  } */
+
+ .feature-content  {
+    max-width: 70%;
+    font-size: larger;
+    color: #e10f0f;
+    margin-bottom: 20px;
+    margin-left: 0px;
   }
 
-  .feature img {
+/*   .feature img {
     max-width: 60%;
     border-radius:300px;
     margin-right: 20px;
-  }
-
-  
-  /* .feature-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 20px;
-    margin-bottom: 50px;
   } */
+
+.feature img {
+    max-width: 60%;
+    border-radius:100px;
+    margin-right: 0;
+    padding-right: 0px;
+  }
 
   .about-us{
     color:rgb(255, 253, 253);
