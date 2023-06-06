@@ -23,12 +23,19 @@
 
   }
 
-  .feature-container {
+  .feature img {
+    max-width: 60%;
+    border-radius:300px;
+    margin-right: 20px;
+  }
+
+  
+  /* .feature-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 20px;
     margin-bottom: 50px;
-  }
+  } */
 
   .about-us{
     color:rgb(255, 253, 253);
@@ -101,10 +108,14 @@ header {
   }
 
   /* Center the navigation and remove default list styles */
-  nav {
+  .nav {
     text-align: center;
+    
   }
-
+  
+.nav a{
+  color: #ffffff;
+}
   ul {
     list-style-type: none;
     padding: 0;
@@ -117,7 +128,7 @@ header {
   }
 
   a {
-    color: #fff;
+    color: #f2f2f2;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
@@ -130,7 +141,7 @@ header {
 
   section#home {
     position: relative;
-    background-color: #f2f2f2;
+    background-color: #573b3b;
     padding: 20px;
     color: #333;
     font-family: Arial, sans-serif;
@@ -210,9 +221,12 @@ header {
   /* Style the cover image */
   .cover-image img {
     display: block;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    text-align: center;
+    background: #fff;
     height:auto;
-    /* object-fit: cover; */
   }
 
   /* Style the project info container */
@@ -228,7 +242,7 @@ header {
   }
 
   .project-info .button {
-    text-align: ;
+    text-align:center ;
     margin-top: 20px;
     font-size: larger;
     width: 140px;
@@ -274,17 +288,24 @@ header {
     background-color: #000000;
   }
 
-  i {
-    color: #fafcff;
-    background-color: black;
-    font-size: larger;
-  }
-
-
   .footer {
     background-color: #000000;
     padding: 20px;
     color: #680a39;
     font-family: Arial, sans-serif;
     text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .social i {
+    background-color: rgb(240, 224, 224);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
   }
