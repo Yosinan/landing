@@ -105,7 +105,14 @@ header {
   /* Center the navigation and remove default list styles */
   .nav {
     text-align: center;
-    
+  }
+
+ .nav .ely {
+    font-size: 24px;
+    color:#00ff66;
+    font-weight: bold;
+    margin-right: 600px;
+    justify-content: left;
   }
   
 .nav a{
