@@ -71,6 +71,8 @@
   .feature-container {
     color:rgb(255, 253, 253);
     font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(61, 38, 38);
   }
