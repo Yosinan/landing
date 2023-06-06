@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ELY - Resale Platform</title>
+  <title>ELY - Resale Realm</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"> -->
   <link href="./index.css" rel="stylesheet">
   <link href="./contact.css" rel="stylesheet">
   <link href="./home.css" rel="stylesheet">
-<script>
-  function msg() {
-    alert("oops, under construction. Will be deployed soon.");
-  }
-  
-  function con() {
-    alert("Thank you for your time. \n Unfortunately the mailing service isn't applied yet. Come back later");
-  }
-  </script>
-  </head>
+  <script>
+    function msg() {
+      alert("oops, under construction. Will be deployed soon.");
+    }
+    
+    function con() {
+      alert("Thank you for your time. \n Unfortunately the mailing service isn't applied yet. Come back later");
+    }
+    </script>
+</head>
 <body>
   <header>
     <nav class="nav">
       <ul>
         <li>
+          <!-- <img class="logo" src="./icon.jpg" alt="Logo"> -->
           <p class="ely">ELY</p>
         </li>
         <li><a href="#home">Home</a></li>
@@ -34,7 +35,9 @@
       </ul>
     </nav>
   </header>
-
+  <div class="feature-container" id="about">
+    <h2>Intro</h2>
+    </div>
   <section id="home">
     <div class="cover-image">
       <img src="./images/icon.jpg" alt="Cover Image">
@@ -42,21 +45,21 @@
     <div class="project-info">
       <h3>ELY - Resale Realm</h3>
       <p>A Resale Platform for Buying and Selling Used Items</p>
-      <button class="button"  onClick="msg()">Try ELY</button>
+      <button class="button" href="#" onclick="msg()">Try ELY</button>
     </div>
   </section>
 <div class="feature-container">
   <h2>Features</h2>
   <section id="features">
     <div class="feature">
-      <img src="./images/buySell.jpg" alt="Feature 1">
+      <img class="image" src="./images/buySell.jpg" alt="Feature 1">
       <div class="feature-content">
         <h2>Easy Buying and Selling</h2>
         <p>With ELY, you can effortlessly buy and sell used items in just a few clicks. Say goodbye to the hassle of traditional classifieds.</p>
       </div>
     </div>
     <div class="feature">
-      <img src="./images/secure.jpg" alt="Feature 2">
+      <img class="image" src="./images/secure.jpg" alt="Feature 2">
       <div class="feature-content">
         <h2>Secure Transactions</h2>
         <p>Your transactions on ELY are fully secure. We prioritize the safety and privacy of our users to provide a worry-free selling and buying experience.</p>
@@ -75,6 +78,7 @@
   <h2>About</h2>
   </div>
 <div class="about-us">
+
 <section>
    <p>
     <br><br>
@@ -140,7 +144,7 @@
                         </div>
                         </figcaption>
                         <div class="social" id="social">
-                        <a href="https://github.com/esru13"><i class="fab fa-github" style='font-size:30px'></i></a>
+                        <a href="https://github.com/esru13"><i class="fab fa-github" ></i></a>
                         <a href="https://www.linkedin.com/in/esrael-berhanu-360ba6248/"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -160,11 +164,11 @@
     <div class="contact-form">
       <h2>Contact Us</h2>
       <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <!-- <input class="button" type="submit" value="Send Message"> -->
         <button class="button"  onClick="con()">Send</button>
-        
       </form>
     </div>
   </section>
@@ -175,4 +179,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
