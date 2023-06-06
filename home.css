@@ -12,11 +12,6 @@
     margin-bottom: 40px;
   }
 
-  .feature img {
-    max-width: 40%;
-    margin-right: 20px;
-  }
-
 /*   .feature-content  {
     max-width: 55%;
     font-size: larger;
@@ -44,11 +39,14 @@
     padding-right: 0px;
   }
 
-  .about-us{
-    color:rgb(255, 253, 253);
+ .about-us{
+    color:rgb(0, 0, 0);
+    font-size: larger;
+    margin-left: 30px;
+    margin-right: 50px;
     /* font-size: xx-large; */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(9, 7, 131);
+    
   }
 
   .about-us .team{
