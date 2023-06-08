@@ -10,6 +10,10 @@
   <link href="./contact.css" rel="stylesheet">
   <link href="./home.css" rel="stylesheet">
   <script>
+    
+    function redirectToLogin() {
+ window.location.href = "http://localhost:3000/login"; 
+}
     function msg() {
       alert("oops, under construction. Will be deployed soon.");
     }
@@ -45,7 +49,7 @@
     <div class="project-info">
       <h3>ELY - Resale Realm</h3>
       <p>A Resale Platform for Buying and Selling Used Items</p>
-      <button class="button" href="#" onclick="msg()">Try ELY</button>
+      <button class="button" href="#" onclick="redirectToLogin()">Try ELY</button>
     </div>
   </section>
 <div class="feature-container" id="feature">
