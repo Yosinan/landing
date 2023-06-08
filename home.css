@@ -323,3 +323,13 @@ header {
     object-fit: cover; /* Adjust how the image fits into the container */
   }
   
+  .video-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Style the video element */
+  video {
+    width: 100%;
+    height: auto;
+  } 
